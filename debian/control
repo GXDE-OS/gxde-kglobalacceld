@@ -1,0 +1,20 @@
+Source: gxde-kglobalacceld
+Section: utils
+Priority: optional
+Maintainer: shenmo <shenmo@spark-app.store>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),dpkg-dev,
+Standards-Version: 4.7.2
+Homepage: https://gitee.com/GXDE-OS/gxde-kglobalacceld
+#Vcs-Browser: https://salsa.debian.org/debian/gxde-kglobalacceld
+#Vcs-Git: https://salsa.debian.org/debian/gxde-kglobalacceld.git
+
+Package: gxde-kglobalacceld
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ gxde-k9(>=1.6.0),
+ kglobalacceld,
+Description: An daemon held by gxde-k9 to launch kglobalacceld
