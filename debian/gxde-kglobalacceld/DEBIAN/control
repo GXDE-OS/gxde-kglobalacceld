@@ -1,0 +1,10 @@
+Package: gxde-kglobalacceld
+Version: 1.0.0
+Architecture: arm64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 14
+Depends: gxde-k9 (>= 1.6.0), kglobalacceld
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/GXDE-OS/gxde-kglobalacceld
+Description: An daemon held by gxde-k9 to launch kglobalacceld

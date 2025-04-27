@@ -7,8 +7,6 @@ cat > pkg/usr/share/gxde-k9/edging/gxde-kglobalacceld.edging << EOF
 TARGET_PROCESS="/usr/lib/$(dpkg-architecture -q DEB_HOST_GNU_TYPE)/libexec/kglobalacceld"
 DONT_RUN_IF_SYSTEMD_EXIST=""
 
-
-
 EOF
 
 popd

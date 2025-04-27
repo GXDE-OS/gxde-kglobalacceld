@@ -1,0 +1,6 @@
+# 目标程序路径（需要运行的可执行文件或命令）
+TARGET_PROCESS="/usr/lib/aarch64-linux-gnu/libexec/kglobalacceld"
+DONT_RUN_IF_SYSTEMD_EXIST=""
+
+
+
