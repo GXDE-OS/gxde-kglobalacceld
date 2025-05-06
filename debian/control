@@ -15,6 +15,5 @@ Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- gxde-k9(>=1.6.0),
- kglobalacceld,
+ libkf5globalaccel-bin(>=5.117.0~realis5.103.0-1),
 Description: An daemon held by gxde-k9 to launch kglobalacceld
