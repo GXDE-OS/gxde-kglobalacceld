@@ -1,5 +1,9 @@
-gxde-kglobalacceld (1.1.0) UNRELEASED; urgency=medium
+gxde-kglobalacceld (1.1.1) UNRELEASED; urgency=medium
 
+  [ shenmo ]
   * 不再使用kglobalacceld，而是使用旧版kf5
 
- -- shenmo <shenmo@spark-app.store>  Mon, 28 Apr 2025 01:27:26 +0800
+  [ gfdgd_xi ]
+  * 降低依赖 libkf5globalaccel-bin 的版本号以支持 deepin25
+
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 15 Jun 2025 11:17:09 +0800
